@@ -1,0 +1,603 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+%\usepackage{setspace}
+
+\name{\Large Hossein Akhavan-Hejazi} % Your name
+\address{1200 Columbia Ave., Winston Chung Global Energy Center\\ Riverside, CA, 92507} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(713)~$\cdot$~471~$\cdot$~9513 \\ shejazi@engr.ucr.edu \\ www.engr.ucr.edu/$\sim$sakhavanhejazi} % Your phone number and email
+%\address{ \textbf{www.engr.ucr.edu/~ sakhavanhejazi} }
+%\renewcommand{\baselinestretch}{1.5} 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+%{\bf University of California, Berkeley} \hfill {\em June 2004} \\ 
+%B.S. in Computer Science \& Engineering \\
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+%Overall GPA: 5.678
+
+\textbf{University of California Riverside}, Riverside, CA \\
+%\begin{itemize}
+ Ph.D.,   Electrical Engineering - Power Systems/ Smart Grid                   \hfill       2016
+%        \begin{innerlist}
+\begin{itemize}
+        \item [] Thesis: \emph{Optimal operation of energy storage units in power transmission and distribution networks.}
+\end{itemize}
+  
+
+\textbf{Amirkabir University of Technologye}, Tehran, Iran \\
+%\begin{outerlist}
+%
+ M.Sc., Electrical Engineering - Power Systems  \hfill 2011 
+%\begin{itemize}
+%      %  \item [] Thesis: \emph{Application of phasor measurement unit in measurement-based dynamic load modeling.}
+%\end{itemize}
+
+
+\textbf{Iran University of Science and Technology}, Tehran, Iran \\
+ B.Sc., Electrical Engineering \hfill 2008
+%\begin{itemize}
+%       % \item [] Thesis: \emph{Optimal capacitor allocation in distribution systems using fuzzy expert systems.}
+%\end{itemize}
+
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Research INTEREST SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Knowledge Areas}
+\begin{tabular}{ @{} l  l   } 
+
+\vspace{0.16cm}
+Battery Energy Storage: & \begin{tabular}{l}  Battery  operation algorithms,  battery testing,  modeling,   system  design \\ and planning.  \end{tabular} \\  
+\vspace{0.16cm}
+
+Smart \& Sustainable grid: & \begin{tabular}{l}   Distribution grid modeling, Distributed Energy Resources,  PV systems. \end{tabular} \\ \vspace{0.16cm}
+
+Power system analysis: & \begin{tabular}{l}  Operation, planning, electricity market operations, risk analysis.   \end{tabular} \\
+\vspace{0.16cm}
+
+
+Optimization:   & \begin{tabular}{l} Stochastic programming, convex relaxations, decomposition.   \end{tabular} \\
+\vspace{0.16cm}
+
+Energy Data analysis:&  \begin{tabular}{l} Statistical analysis,   time-series analysis, state estimation. \end{tabular} \\
+\end{tabular}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{ Experience}
+%(Below I have elaborated on my experience most related to the job description)
+
+
+\begin{rSubsection}{Professional Researcher/  Research Faculty}{ 2017-Present}{Winston Chung Global Energy Center, University of California at Riverside}{}
+
+\vspace{0.26cm}
+
+\item[]  Detailed Modeling of Batteries in Optimal Battery Energy Storage System (BESS) Operation: Variable Cell Balance and Capacity:
+
+\begin{itemize}
+   \item  []  The current optimization-based algorithms to operate grid-tied BESS typically do not look much under the hood of the BESS, i.e. the device-level characteristics of the batteries. We propose a new BESS
+scheduling optimization framework that accounts for features  such as cell-to-cell variations in (a) maximum capacity, (b) charge level balance, and (c) internal resistance. 
+The proposed framework is in the form of tractable mixed integer linear programs (MILP). 
+Several  techniques has been  used to convert the original problem in the from of MILP.
+%\emph{This project involved developing optimization algorithms, programming in MATLAB and Python and implementing algorithms for estimation and operation control of the BESS.}
+\end{itemize}
+
+\item[]  Quantification of Forecast Error Impact on  Model Predictive Control of BESS Operation for Demand Charge Reduction.
+\begin{itemize}
+   \item  []  The load/generation forecast used in BESS MPC algorithms include some deviations from real-time values. 
+ Although the forecast and operating states of the system is frequently updated, such errors have impact on operation efficiency of BESS.
+In this work we develop optimization-based mathematical models to quantify the impact on two types of BESS MPC algorithms in demand peak shaving application.  
+%\emph{The  algorithm is implemented by programming in MATLAB and Python.}
+\end{itemize}
+
+\item[]  Probabilistic Load Forecasting Using Non-parametric Conditional Density Estimation.
+\begin{itemize}
+  \item  []  In this project we develop and implement algorithms for probabilistic forecasting of the demand.
+   The approach is based on estimating the non-parametric kernel-based joint distribution of the demand and affecting factors,e.g. temperature, from historical data.
+  The conditional probability distributions are then estimated based on given values of predicted affecting factors.
+\end{itemize}
+
+
+%\begin{itemize}
+%   \item  [] Advancing The Resilience And Environmental Performance Of California's Electricity System.
+%\end{itemize}
+%\item [] UCR PI in  the  proposal submitted in response to CEC-GFO-17-302-G3
+%\begin{itemize}
+%   \item  [] Demonstrate Business Case for Advanced Microgrids in Support of California's Energy and GHG Policies
+%\end{itemize}
+%
+%\item []UCR Co-PI in  the Willdan Inc.  proposal submitted in response to CEC-GFO-17-302-G1
+
+%\begin{itemize}
+\item  [] Optimized Cell Removal to Enhance Operation of the  Used Battery Packs with Variable Capacity Cells.
+\begin{itemize}
+   \item  []  This project is aimed at developing algorithms for automating and optimizing the BESS asset management. 
+  During the operation life of the BESS, the battery pack may develop a condition where the capacity of some cell reduce much greater than the rest of the pack. 
+  Th
+\end{itemize}
+
+
+
+
+   \item  []  PI,  Co-PI, and key personnel in more than 17 title proposals submitted to CEC, DOE, ARPA-E, UCOP, etc., Including the funded projects:
+   \begin{itemize}
+  \item  [] Smart Batteries: Self-Healing by Self-Reconfiguration at the Cell Level. (UCR SEED GRANT)
+  \item [] Demonstration of Smart Combustion Technology using Natural Gas Fuel Quality Sensor. (CEC-GFO-17-501)
+  \item [] Advanced Integrated Building Energy Management Technology Demonstration in a Permanent Supportive Housing Facility. (CEC-GFO-16-309)
+  \item [] Internet of Things and Ubiquitous Sensing in University Building Energy Management; Design Optimization and Technology Demonstration. (CEC-GFO-16-309)
+  
+\end{itemize}
+   
+   
+   
+   
+%  \end{itemize}
+\end{rSubsection}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{rSubsection}{Post-doctoral Fellow}{June 2017 - September 2017}{Smart Grid Research Lab, University of California at Riverside}{}
+%\item []  Developing proposal  for UCOP GFO UC-National Lab Collaborative Research and Training Awards  
+%\item []  Developing proposal  for CEC GFO 16-310- Improving Performance and Cost Effectiveness of Wind Energy Technologies 
+%\end{rSubsection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{rSubsection}{Post-doctoral Fellow}{April 2017 - June 2017}{System Energy Efficiency  Lab, University of California at San Diego}{}
+%
+%\vspace{0.26cm}
+%
+%\item [] Mission planning and task allocation for a group of unmanned aerial vehicles in multi-criteria environmental applications.
+%\begin{itemize}
+%\item [] Developed optimization-based algorithms to coordinate the mission of a group of UAVs in path finding and identifying the location of fire origination.
+%
+%\end{itemize}
+%
+%\end{rSubsection}
+
+
+
+
+\begin{rSubsection}{Post-doctoral Fellow}{2016 - 2017}{Smart Grid Research Lab, University of California at Riverside}{}
+\vspace{0.26cm}
+
+\item[]  Utility-scale implementation of a battery-assisted distribution feeder peak-shaving system:
+
+%\begin{innerlist}
+\begin{itemize}
+%\item [] Analyzed the SCADA data to identify the challenges in standard ToU response of a battery-equipped micro-grid.
+\item [] Developed  offline and online  stochastic optimization frameworks for peak-shaving on an industrial 12 kV distribution feeder using batteries located at UCR CE-CERT micro-grid.
+%\item  Developed an online model predictive stochastic optimization for peak-shaving.
+%\item [] 
+Utilized the RPU  SCADA data  to predict the feeder load using ARMA models.%(in offline/online designs)
+%\item  Assisted in the implementation of the design on a 1MWh/200 kW Li-ion battery system.
+\emph{This project involved extensive programming in MATLAB, data analysis, statistical modelling, Monte-Carlo simulation, and stochastic optimization.}% It also involved developing codes for distribution system modelling and optimal power flow (conic-branch-model).}
+\end{itemize}
+\item[] Lab-scale implementation of a P-HIL testbed for grid-connected battery systems.
+%
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Researcher}{ 2012 - 2016}{Smart Grid Research Lab, University of California at Riverside}{}
+\vspace{0.26cm}
+
+
+
+\item[] Utility-scale independent energy storage bidding in  electricity market for multiple revenue streams.
+
+%\begin{innerlist}
+\begin{itemize}
+\item []	Formulated  stochastic optimization  for energy storage bidding in day-ahead electricity market. 
+Developed models for participation of independent  energy storage in energy and  reserve market.
+%\item 	Developed a mixed integer bender’s decomposition method for storage operation in energy and reserve markets. 
+%\item []	
+Obtained  convex approximations for the non-linear, non-convex storage operation problem. 
+%\item []	
+Implemented a stochastic  unit-commitment problem to calculate input bus prices/shadow prices. 
+Studied the PJM market structure for demand resources participation in two settlement markets of energy/ancillaries. 
+\emph{This project was part of my research towards the PhD dissertation. It involved programming, optimal power flow and unit-commitment modeling,  study of bidding and market clearance procedures, statistical modeling and Monte-Carlo simulations, optimization and decomposition techniques.}
+\end{itemize}
+
+%\begin{innerlist}
+%\item Investigated the applications of big data analytics in power distribution systems.
+%\item  Investigated the applications of μPMU measurements in big data research in power distribution systems.
+%\item  Directed an undergraduate researcher on application of HDFS/Hive in analysis of consumer consumption data.
+%\end{innerlist}
+
+
+%\end{innerlist}
+%\item   Collaborative research on the applications of big data analytics/ statistics in power systems.
+
+\item[] Energy storage operation in distribution systems via  chance-constrained stochastic programming:
+
+\begin{itemize}
+\item [] Developed non-parametric CC-OPF  for energy storage operation in distribution systems.
+%\item [] 
+Developed   convex approximation of CC-OPF for energy storage operation in distribution systems.
+%\item  Implemented several types of stochastic modeling for distribution system analysis in presence of renewable sources.
+%\item []  
+Developed mathematical models for battery storage characteristics,  analysis of   cost, sizing, and coordinated charging of battery storage.
+%
+%\item 	Constructed a real measured database of feeder information, load profiles, renewable generation, and vehicle charging. 
+%\item [] Developed models for analysis, sizing, and coordinated charging of distributed energy storage on distribution networks. 
+%
+%\item []  
+Developed a test data set for electric vehicle fleet applications in smart grid research. 
+\emph{This project involved extensive programming in  MATLAB, distribution grid modeling, and advanced stochastic modelling.}
+
+\end{itemize}
+
+
+
+%\begin{innerlist}
+%\item Developed models to synthesize the SoC and charging traces for a fleet of PHEV taxi vehicles by combining the GPS data of 536 non-electric taxi vehicles (the Mobility dataset) and the characteristics of five dominant PHEV brands.
+%\item Developed models to obtain the loads of charging stations for the PHEV fleet based on the locations and durations that vehicles parked frequently.
+%\item 	Developed statistical models for the analysis of both PHEV fleet vehicles and the charging stations.
+%\end{innerlist}
+
+
+
+%\end{innerlist}
+
+
+\item[] HIL testing of VAR control in distribution girds via optimal operation of four-quadrant battery chargers.
+
+%\begin{innerlist}
+%\begin{itemize}
+%\item []	Developed the SOCP and SDP convex relaxation of  OPF on a distribution feeder. 
+%%\item []	Developed a semi-definite program (SDP) relaxation of OPF on a distribution test feeder. 
+%\item []	Modeled optimal reactive power flow control of distribution systems on real-time digital simulator.
+%%\item[] Analyzed the operation results of the 
+%%\item 	Connected RTDS Runtime with MATLAB and performed real-time control of grid loads on RTDS. 
+%%\item 	Implemented and tested the optimal operation algorithms of EV chargers on RTDS.
+%\end{itemize}
+%
+%
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Graduate Intern }{June 2014 - September 2014}{Energy Management Department, NEC Laboratories America}{}
+
+\item [] Risk-constrained  market optimization and bidding of utility-scale battery storage systems in two-settlement market:
+
+\begin{itemize}
+\item []	Developed an optimization for  operation  of battery storage based on NYISO two-settlement market. 
+%\item []	
+Formulated a cost/revenue model and a revenue- risk model for energy storage system bidding/operation. 
+%\item [] 
+Obtained tractable models for  battery features such as efficiency and wear cost. 
+%\item 	Designed methodologies for calculating marginal cost of energy storage system operation in the market. 
+\end{itemize}
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Graduate Researcher }{2011 - 2012}{Electrical Engineering Department, Texas Tech University}{}
+
+\item	[] Distribution system optimal expansion planning with distributed energy resources. 
+%\begin{itemize}
+%\item [] 	Developed upgrade planing for minimum procurement cost of CHP DG Feed-in-Tariff contracts. 
+%\item []	Studied California ISO market structure/ sample utility contracts and collected existing field data. % for most relevant results. 
+%\item []	Developed unbalanced power flow tool for distribution systems based on F/B method.
+%%\end{innerlist}
+%\end{itemize}
+\begin{itemize}
+
+\item [] \emph{This project was implemented using MATLAB scripts. Distribution system was modeled via three-phase unbalanced power flow.}
+\end{itemize}
+
+
+\item []	Analysis of the impacts of large scale automated demand response on the electric market operations.
+
+\end{rSubsection}
+
+
+
+\begin{rSubsection}{Graduate Researcher}{2009 - 2011}{Electrical Engineering Department, Amirkabir University of Technology}{}
+
+\item []	Modeling dynamic characteristics of distribution systems based on the measurements of PMU.
+\item []	Security-constrained co-allocation of energy and reserve in electricity market.
+%\begin{itemize}
+%\item []	\emph{This is my first work in analysis and modeling of energy market and security constrained optimal dispatch modeling. It resulted in a IEEE transaction paper.}
+%\end{itemize}
+
+
+
+\end{rSubsection}
+\end{rSection}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} l  l   } 
+\vspace{0.16cm}
+
+Optimization Software: & \begin{tabular}{l} CPLEX, GUROBI, CVX, MOSEC  \end{tabular} \\ \vspace{0.16cm}
+
+Power System Software:   & \begin{tabular}{l}PSCAD, Simulink, Power World, DIgSILENT, SAM   \end{tabular} \\
+\vspace{0.16cm}
+
+Real Time Digital Simulator (RTDS):&  \begin{tabular}{l} Hardware-in-Loop (HIL) Testing \end{tabular} \\
+\vspace{0.16cm}
+
+Programming: & \begin{tabular}{l}  MATLAB, Python  \end{tabular} \\
+\vspace{0.16cm}
+
+Miscellaneous: &\begin{tabular}{l}  Bash,  Git, LaTeX, MS. Office \end{tabular} \\ 
+
+\end{tabular}
+
+\end{rSection}
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{Section Name}
+%Section content\ldots
+%\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{ Selected Refereed Publications}
+
+{\bf Journal Papers}
+%begin{bibsection}
+\item [J1]  {\bf H.  Akhavan-Hejazi}, Z. Taylor, ,  H. Mohsenian-Rad, ``Optimal Cell Removal to Enhance Operation of Aged Battery Storage Systems",  submitted. 
+
+\item [J2]  Z. Taylor, {\bf H.  Akhavan-Hejazi},  H. Mohsenian-Rad, ``Optimal Operation of Grid-Tied Energy Storage Systems Considering Detailed Device-Level Battery Models", IEEE Tans. on Industrial Informatics, Online early Access. 
+
+\item [J3]	Y. Zhan, M. Ghamkhari, {\bf H. Akhavan-Hejazi}, D. Xu, H. Mohsenian-Rad, ``Cost-Aware Traffic Management under Demand Uncertainty From a Colocation Data Center User's Perspective", \emph{IEEE Trans. on Services Computing},   January 2018, Online early Access. 
+
+ \item [J4]  Z. Taylor, {\bf H.  Akhavan-Hejazi}, E. Cortez, L.  Alvarez,  S. Ula,  M. Barth,  H. Mohsenian-Rad, ``Customer-side SCADA-assisted Large Battery Operation Optimization for Distribution Feeder Peak Load Shaving",\emph{ IEEE Tans. on Smart Grid}, vol. 10, no. 1, pp 992-1004, January 2019
+ 
+\item [J5] {\bf H. Akhavan-Hejazi}, H. Mohsenian-Rad, ``Power Systems Big Data Analytics: An Assessment of Paradigm Shift, Barriers, and Prospects",   \emph{Energy  Reports},  vol. 4, pp 91-100, November 2018
+  
+
+ 
+ \item [J6] {\bf H. Akhavan-Hejazi},  H. Mohsenian-Rad, ``Energy Storage Planning in Active Distribution Grids: A Chance-Constrained Optimization with Non-Parametric Probability Functions,'' \emph{IEEE Trans. on Smart Grid}, vol. 9, no. 3, pp. 1972-1985, May 2018.
+
+
+
+
+\item [J7] {\bf	H. Akhavan-Hejazi}, H. Mohsenian-Rad,``Optimal Operation of Independent Storage Systems in Energy and Reserve Markets with High Wind Penetration," \emph{IEEE Trans. on Smart Grid}, vol. 5, no. 2, pp. 1088-1097, March 2014.
+
+\item [J8] {\bf	H. Akhavan-Hejazi}, A. Araghi, B. Vahidi, S. Hosseinian, M. Abedi,  H. Mohsenian-Rad, ``Independent Distributed Generation Planning to Profit Both Utility and DG Investors," \emph{IEEE Trans. on Power Systems}, vol. 28, no. 2, pp. 1170-1178, July 2013.
+
+\item [J9]{\bf	H. Akhavan-Hejazi}, H. Mohabati, S. Hosseinian, M. Abedi, ``Differential Evolution Algorithm for Security-Constrained Energy and Reserve Optimization Considering Credible Contingencies," \emph{IEEE Trans. on Power Systems}, vol. 26, pp. 1145-1155, August 2011.
+
+
+
+ 
+
+
+
+
+%\end{bibsection}
+\vspace{+.15275in}
+
+{\bf Book Chapters}
+
+\vspace{+.001275in}
+
+\item [B1]  {\bf H. Akhavan-Hejazi}, H. Mohsenian-Rad,  ``Optimal  Operation of Independent Storage Systems in Energy and Reserve Markets with High Wind Penetration," in \emph{Energy Storage for Smart Grids: Planning \& Operation for Renewable and Variable Energy Resources}, Edited by P. Du and N. Lu, Elsevier, 2014.
+
+
+\vspace{+.152275in}
+
+%\fontdimen3\font
+{\bf   Conference Papers}
+
+\item [C1] Z. Taylor, {\bf H. Akhavan-Hejazi} ,  H. Mohsenian-Rad, ``Power Hardware-in-Loop Simulation of Grid-connected
+Battery Systems with Reactive Power Control Capability,"  in Proc. of  North American Power Symposium (NAPS), September 2017, Morgantown, WV.
+
+
+\item [C2] Z. Taylor, {\bf H. Akhavan-Hejazi} ,  E. Cortez, L. Alvarez, S.  Ula, M.  Barth, H. Mohsenian-Rad, ``Battery-assisted distribution feeder peak load reduction: Stochastic optimization and utility-scale implementation." In Proc. of Power and Energy Society General Meeting (PESGM), July 2016, Boston, MA.
+
+
+
+\item [C3] {\bf H. Akhavan-Hejazi}, B. Asghari, R. Sharma, ``A joint bidding and operation strategy for battery storage in multi-temporal energy markets," in Proc. of the \emph{IEEE PES Innovative Smart Grid Technologies Conference}, Washington, DC, Feb. 2015. 
+
+\item [C4] H. Darvishi, A. Darvishi, {\bf H. Akhavan-Hejazi}, ``Integration of demand side management in security constrained energy and reserve market," in Proc. of the \emph{IEEE PES Innovative Smart Grid Technologies Conference}, Washington, DC, Feb. 2015.
+
+\item [C5] {\bf	H. Akhavan-Hejazi}, H. Mohsenian-Rad, A. Nejat, ``Developing a test data set for electric vehicle applications in smart grid research," in Proc. of the \emph{IEEE Vehicular Tec. Conf.}, Vancouver, BC, 2014. 
+
+\item  [C6]	Chenye Wu, { \bf H. Akhavan-Hejazi}, H. Mohsenian-Rad, Jianwei Huang ``PEV-based P-Q Control in Line Distribution Networks with High Requirement for Reactive Power Compensation", in Proc. of the \emph{IEEE PES Innovative Smart Grid Technologies Conference}, Washington, DC, Feb. 2014. 
+
+\item [C7]	{\bf H. Akhavan-Hejazi}, H. Mohsenian-Rad, ``A Stochastic Programming Framework for Optimal Storage Bidding in Energy and Reserve Markets," in Proc. of the \emph{IEEE PES Innovative Smart Grid Technologies Conference}, Washington, DC, Feb. 2013.
+
+\item [C8] {\bf	H. Akhavan-Hejazi}, Z. Bahar, H. Mohsenian-Rad, ``Challenges \& Opportunities in Large-Scale Deployment of Automated Energy Consumption Scheduling in Smart Grid," in Proc. of \emph{the IEEE Conf. on Smart Grid Communications}, Tainan, Taiwan, Oct. 2012. 
+
+\item [C9] {\bf	H. Akhavan Hejazi}, M. Abedi, H. R. Mohabati, M. Hajizade, ``A New Approach for Fast Identification of Distribution System Dynamic Model from Measured Data," in Proc. of the \emph{International Conference on Clean Electrical Power}, Ischia, Italy, 2011. 
+
+\item [C10] {\bf H. Akhavan-Hejazi}, M. Hejazi, G. Gharehpatian, M. Abedi, ``Distributed Generation Site and Size Allocation Through a Techno Economical Multi-objective Differential Evolution Algorithm," in Proc. of \emph{the IEEE Power \& Energy Int. Conference}, Kuala Lumpur, Malaysia, 2010.
+
+
+
+
+\end{rSection}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{rSection}{Selected Proposal Writing Experience}
+%\textbf{Summary:}  I was actively involved in developing  the technical documents for several proposals, including one or more of  the Technical Volume, Project Narrative, Scope of Work, Project Time-line, Fact-sheet, etc. The list below is a non-exhaustive proposals during my PhD. and Postdoc.
+%\begin{itemize}
+%
+%\item  \emph{UCOP-2018 UC-NLCRT:} UC-Lab Center for Electricity Distribution Cybersecurity. (\textbf{Awarded: \$3M})
+%
+%\item  \emph{CEC-GFO-16-304:} Internet of Things and Ubiquitous Sensing in University Building Energy Management; Design Optimization and Technology Demonstration. (\textbf{Awarded: \$2.5M})
+%
+%\item  \emph{CEC-GFO-16-309:} Advanced Integrated Building Energy Management Technology Demonstration in a Permanent Supporting Housing Facility. (\textbf{Awarded: \$2.1M})
+%
+%\item  \emph{CEC-EISG-EISG-13-04:} PEV-Based Active and Reactive Power Compensation in Distribution Networks: Design Optimization and Technology Demonstration.  (\textbf{Awarded: \$100K})
+%
+%\item  \emph{CEC-GFO-16-303-G3:} Optimized Large Vehicle Battery Recycling for Grid Integrated Applications. (Declined: \$1.0M)
+%
+%\item \emph{CEC-GFO-15-313-G3:} Exploiting PMU Data to Enable Bi-directionality, Enhance Reliability, and Improve Efficiency in California Distribution Feeders. (Declined: \$1.7M)
+%
+%\item \emph{RPU-EI-14:} Monitoring and Control of PVs, Battery Storage Systems, and EV Chargers at a 12 kV Industrial Substation Feeder Level. (\textbf{Awarded: \$100K})
+%
+%\item \emph{RPU-EI-15:} Exploiting PMU Data at RPU's 12 kV Industrial Feeder; Innovative Data Analytics and Optimal Energy Resource Operation. (Declined: \$100K)
+%
+%\item \emph{DoE-FOA-1616:} Learning-Enhanced Algorithms, DER Synthesis. (Declined: \$1.5M)
+%
+%\item \emph{DoE-FOA-1493:} Tackling Market Economics and Grid Reliability Risk Tradeoffs in Market Aggregation of Demand Resources; A Decentralized Approach Driven by Big Data. (Declined: \$300K)
+%
+%\end{itemize}
+%
+%
+%\end{rSection}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%------------------------------------------------------------------------------------
+%\begin{rSection}{ Teaching Interests}
+%
+%\begin{tabular}{ @{} l  l   } 
+%\vspace{0.16cm}
+%
+%System analysis: & \begin{tabular}{l}  Engineering circuit analysis, power systems analysis,\\  energy systems operation \& planning.   \end{tabular} \\
+%\vspace{0.16cm}
+%
+%Optimization and Control:   & \begin{tabular}{l} Linear systems, control theory, optimization theory, stochastic optimization.   \end{tabular} \\
+%\vspace{0.16cm}
+%
+%Data analysis:&  \begin{tabular}{l} Statistical analysis,  state estimation. \end{tabular} \\
+%
+%\end{tabular}
+%
+%
+% \vspace{0.16cm}
+%
+%\end{rSection}
+
+
+
+
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{rSection}{Teaching Experience}
+%
+%\begin{rSubsection}{Teaching Assistant }{2014 - 2016}{Department of Electrical \& Computer Engineering , University of California at Riverside}{}
+%\item [] EE231: Convex Optimization in Engineering Applications (Graduate Course), Winter 2014
+%\item [] EE232: Introduction To Smart Grid (Graduate Course), Winter 2016
+%%\begin{innerlist}
+%\end{rSubsection}
+%
+%
+%\begin{rSubsection}{Teaching Assistant }{2010 }{Department of Biomedical Engineering, Amirkabir University of Technology }{}
+%\item [] DC Electrical Machines (Under-graduate Course), Fall 2010
+%%\begin{innerlist}
+%\end{rSubsection}
+%
+%\end{rSection}
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Professional Services}
+\item  Committee Chair,  UCR Conference on  Energy Storage Technologies and Applications, 2018-2019.
+\item  Co-Chair of Control and Operation Symposium, IEEE Smart Grid Communications Conference, 2018.
+\item  Technical Program Committee  Member, IEEE Smart Grid Communications Conference, 2014-2017.
+\item   Technical Program Committee Member, IEEE Global Communications Conference, 2016.
+\item Technical Program Committee Member, Smart Grid Inspired Future Technologies Conference, 2016.
+\item  Technical Program Committee Member, IEEE Vehicular Technology Conference, 2014.
+\item  Reviewer for IEEE Transactions on Power Systems,  Smart Grid, and Sustainable Energy.
+
+\end{rSection}
+
+
+\begin{rSection}{Fellowships \& Awards}
+
+\item [] Dissertation Year Award, University of California, Riverside, Graduate Division, 2015
+
+\item [] Dean's Distinguished Fellowship Award, University of California, Riverside, Graduate Division, 2012
+
+\item [] Dean’s Sybil Harrington Living Trust Fellowship, Texas Tech University, Graduate School, 2011
+
+\end{rSection}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{ Proposal Writing Experience}
+\textbf{Summary:} During my PhD. and Postdoc, I was actively involved in developing  the technical documents, such as Technical Narrative, Scope of Work, etc. for several proposals. Here is a select list:
+\begin{itemize}
+
+\item  \emph{UCOP-2018 UC-NLCRT:} UC-Lab Center for Electricity Distribution Cybersecurity. (\textbf{Awarded: \$3M})
+
+\item  \emph{CEC-GFO-16-304:} Internet of Things and Ubiquitous Sensing in University Building Energy Management; Design Optimization and Technology Demonstration. (\textbf{Awarded: \$2.5M})
+
+\item  \emph{CEC-GFO-16-309:} Advanced Integrated Building Energy Management Technology Demonstration in a Permanent Supporting Housing Facility. (\textbf{Awarded: \$2.1M})
+
+\item  \emph{CEC-EISG-EISG-13-04:} PEV-Based Active and Reactive Power Compensation in Distribution Networks: Design Optimization and Technology Demonstration.  (\textbf{Awarded: \$100K})
+
+\item  \emph{CEC-GFO-16-303-G3:} Optimized Large Vehicle Battery Recycling for Grid Integrated Applications. (Declined: \$1.0M)
+
+\item \emph{CEC-GFO-15-313-G3:} Exploiting PMU Data to Enable Bi-directionality, Enhance Reliability, and Improve Efficiency in California Distribution Feeders. (Declined: \$1.7M)
+
+\item \emph{RPU-EI-14:} Monitoring and Control of PVs, Battery Storage Systems, and EV Chargers at a 12 kV Industrial Substation Feeder Level. (\textbf{Awarded: \$100K})
+
+\item \emph{RPU-EI-15:} Exploiting PMU Data at RPU's 12 kV Industrial Feeder; Innovative Data Analytics and Optimal Energy Resource Operation. (Declined: \$100K)
+
+\item \emph{DoE-FOA-1616:} Learning-Enhanced Algorithms, DER Synthesis. (Declined: \$1.5M)
+
+\item \emph{DoE-FOA-1493:} Tackling Market Economics and Grid Reliability Risk Tradeoffs in Market Aggregation of Demand Resources; A Decentralized Approach Driven by Big Data. (Declined: \$300K)
+
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}
